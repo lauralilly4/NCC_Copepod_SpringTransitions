@@ -14,14 +14,14 @@ library(TimeWarp)
 
 # Load datafiles - Copepod nMDS score, Physical variables
 scrfl <- read.csv('NH05_Cope_biom_MDSscore_v4_CAM_RawDts.csv')
-wndfl <- read.csv('Phys_Inds/NH10_ALF_TrnsDts_Cumu.csv')
-alffl2 <- read.csv('Phys_Inds/NH10_ALF_FlowMagHourly.csv')
-romsfl1 <- read.csv('Phys_Inds/ROMS_MGJ_wcra_vars_44.65N_124.2W_1980-2010_monthly.csv')
-romsfl2 <- read.csv('Phys_Inds/ROMS_MGJ_wcra_vars_44.65N_124.2W_2011-2021_monthly.csv')
-sshfl <- read.csv('Phys_Inds/NH05_SSH_from_AVISO.csv')
-bvfl <- read.csv('Phys_Inds/NH05_BV_from_NHL.csv')
-cutifl <- read.csv('Phys_Inds/CUTI_monthly.csv')
-beutifl <- read.csv('Phys_Inds/BEUTI_monthly.csv')
+wndfl <- read.csv('NH10_ALF_TrnsDts_Cumu.csv')
+alffl2 <- read.csv('NH10_ALF_FlowMagHourly.csv')
+romsfl1 <- read.csv('ROMS_MGJ_wcra_vars_44.65N_124.2W_1980-2010_monthly.csv')
+romsfl2 <- read.csv('ROMS_MGJ_wcra_vars_44.65N_124.2W_2011-2021_monthly.csv')
+sshfl <- read.csv('NH05_SSH_from_AVISO.csv')
+bvfl <- read.csv('NH05_BV_from_NHL.csv')
+cutifl <- read.csv('CUTI_monthly.csv')
+beutifl <- read.csv('BEUTI_monthly.csv')
 
 
 scridx <- readline("Which nMDS dim? 1, 2    ") # Select nMDS dimension
